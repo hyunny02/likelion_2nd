@@ -1,7 +1,6 @@
 
 # 구현의도
-카메라 회사이다 보니 깔끔하고 예술적인 분위기를 조성하기 위해 background image를 사용함. 
-
+카메라 회사이다 보니 깔끔하고 예술적인 분위기를 조성하기 위해 background image를 사용했다.
 '당신의 순간을 담다'라는 키워드를 통해 회사의 가치관을 표현하며 카메라회사의 이미지를 담았다.
 # 역할분담
 ### 이성현 
@@ -30,7 +29,7 @@ css a태그 관련 코드를 사용 but hover시에 파란색밑줄은 없어지
 -> []과 ()안에 모두 확장자를 입력했다.
 
 
-#간단한 소감
+# 간단한 소감
 ### 이성현
 꽉 찬 화면에서 만드는 것은 쉬웠지만 창의 크기가 변하며 각각 다른 환경에서의 사용자에게 똑같은 웹서비스를 제공하기 위해 고려해야할 것들이 많다는 것을 알게 되었다.
 ### 이지우
@@ -41,11 +40,11 @@ css a태그 관련 코드를 사용 but hover시에 파란색밑줄은 없어지
 
 ### 완성본 스크린샷 올리기
 ### 1. page1_main
-![screen_1.png](.\image\screen_1.png)
+![screen_1.png](image\screen_1.png)
 ### 2. page2_introduce
-![screen_2.png](.\image\screen_2.png)
+![screen_2.png](image\screen_2.png)
 ### 3. page3_product
-![screen_3_1.png](.\image\screen_3_1.png)
-![screen_3_2.png](.\image\screen_3_2.png)
+![screen_3_1.png](image\screen_3_1.png)
+![screen_3_2.png](image\screen_3_2.png)
 ### 4.page4_contact
-![screen_4.png](.\image\screen_4.png)
+![screen_4.png](image\screen_4.png)
