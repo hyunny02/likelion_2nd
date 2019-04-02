@@ -1,0 +1,44 @@
+.bar{
+    text-align: center;
+    height:15%;
+    min-width:1000px;
+    margin-bottom: 0.2em;
+}
+
+.bar > a {
+    display: inline-block;
+    margin-right:80px;
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+}
+
+#brand {
+    padding-left: 0.7em;
+    font-size: 3em;
+    font-family: KCC-eunyoung;
+}
+
+.main{
+    height: 75%;
+    overflow: hidden;
+    position: relative;
+    min-width:1000px;
+}
+
+.main > img{
+    width:100%;
+    height:auto;
+    opacity: 0.8;
+}
+@font-face { font-family: 'KCC-eunyoung'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KCC-eunyoung-Regular.woff') format('woff'); font-weight: normal; font-style: normal; }
+.main > p.text{
+    color: white;
+    font-size: 5em;
+    font-family: KCC-eunyoung;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate( -50%, -50% );
+}
+

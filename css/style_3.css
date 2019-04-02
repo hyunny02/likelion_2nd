@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'KCC-eunyoung';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KCC-eunyoung-Regular.woff')
+    format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.bar{
+    text-align: center;
+    height:15%;
+    min-width:1000px;
+    margin-bottom: 0.2em;
+}
+
+.bar > a {
+    display: inline-block;
+    margin-right:80px;
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+}
+
+#brand {
+    padding-left: 0.7em;
+    font-size: 3em;
+    font-family: KCC-eunyoung;
+}
+
+.main > img {
+    width:100%;
+    height: auto;
+    min-width:1200px;
+    overflow: scroll;
+}
+
+.back{
+    min-width:1200px;
+    padding-top: 100px;
+}
+.camera{
+    width:50%;
+    height:auto;
+    float:left;
+}
+.lens{
+    width:50%;
+    height:auto;
+    float:right;
+}
+.camera > img, .lens > img {
+    border-bottom: 1px solid black;
+    width: 200px;
+}
+.lens, .camera{
+    padding-left:200px;
+
+}
+.back > .lens > p {
+    width:400px;
+
+}
+.back > .camera > p {
+    width:400px;
+
+}
