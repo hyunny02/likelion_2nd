@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact</title>
+        <link rel="stylesheet" href="./css/style_4.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+        <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+        <script>
+            function initialize() {
+                var myLatlng = new google.maps.LatLng(37.258687, 127.053216);
+                var mapOptions = {
+                    zoom: 13,
+                    center: myLatlng,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP
+                }
+                var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
+                var marker = new google.maps.Marker( {
+                    position: myLatlng,
+                    map: map,
+                    title:"경기도 수원시"
+                });
+                var infowindow = new google.maps.InfoWindow( {
+                    content: "Moment"
+                });
+                infowindow.open(map,marker);
+            }
+         </script>
+    </head>
+    <body  onload="initialize()">
+        <div class="bar">
+            <a id="brand" href="http://localhost:63342/LandingPage/page1_main.html?_ijt=jredm7vpd8acoaedbs4altkraf">Moment</a>
+            <a href="http://localhost:63342/LandingPage/page2_introduce.html?_ijt=jredm7vpd8acoaedbs4altkraf">Introduce</a>
+            <a href="http://localhost:63342/LandingPage/page3_product.html?_ijt=jredm7vpd8acoaedbs4altkraf">Product</a>
+            <a href="http://localhost:63342/LandingPage/page4_contact.html?_ijt=jredm7vpd8acoaedbs4altkraf">Contact</a>
+        </div>
+        <div> <!--메인-->
+            <div class="main"> <!--메인 사진-->
+                <img class="main_img" src="./image/page4.jpg" alt="main">
+            </div>
+            <div class="address">
+                <div id="map_canvas"></div>
+                <div class="info_address">
+                    <h2 id="first">경기도 수원시 영통구 매탄동 삼성로 129</h2>
+                    <div class="info_path">
+                        <h4 id="second">찾아오시는 길</h4>
+                        출발지 :
+                        <input type="text" name="departure" value="">
+                        <input type="submit" value="경로 찾기">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

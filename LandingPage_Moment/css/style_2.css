@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'KCC-eunyoung';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KCC-eunyoung-Regular.woff')
+    format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-4Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff')
+    format('woff'); font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bar{
+    text-align: center;
+    height:15%;
+    min-width:1000px;
+    margin-bottom: 0.2em;
+}
+
+.bar > a {
+    display: inline-block;
+    margin-right:80px;
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+}
+
+#brand {
+    padding-left: 0.52em;
+    font-size: 3em;
+    font-family: KCC-eunyoung;
+    padding-top: 0.15em;
+}
+
+#page {
+    background-color: red;
+    color: white;
+}
+div.main {
+    min-width: 1200px;
+}
+div.main > img.main_img {
+    margin-top: 0.5em;
+    width: 100%;
+    min-width: 1200px;
+    height: auto;
+}
+.back {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 100%;
+    min-width: 1200px;
+}
+div.back > div.info {
+    float: left;
+    padding: 0;
+    margin: 5% 0 auto 8%;
+    width: 450px;
+    height: auto;
+    display: inline;
+}
+div.back > div.info > p {
+    display: inline-block;
+}
+div.back > div.info > p.title {
+    font-family: KCC-eunyoung;
+    padding: 0 5% 0 0;
+    margin: 5% 0 5% 5%;
+    border-right: black 1px solid;
+    vertical-align: top;
+    font-size: 30px;
+}
+div.back > div.info > p.t {
+    width: 70%;
+    vertical-align: top;
+    margin: 5% 0 5% 3%;
+    padding: 0;
+    font-family: S-CoreDream-4Regular;
+    width:290px;
+}
+div.back > div.news {
+    float: right;
+    margin: 5% 10% 5% auto;
+    padding: 0;
+    width: 400px;
+}
+div.news > p {
+    padding:  5% 0;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+}
+div.news > table {
+    color: gray;
+    width: 100%;
+}
+td {
+    font-family: S-CoreDream-4Regular;
+    padding-bottom: 2%;
+}
+td.date {
+    font-size: 12px;
+}

@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'KCC-eunyoung';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KCC-eunyoung-Regular.woff')
+    format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-4Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff')
+    format('woff'); font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bar{
+    text-align: center;
+    height:15%;
+    min-width:1000px;
+    margin-bottom: 0.2em;
+}
+
+.bar > a {
+    display: inline-block;
+    margin-right:80px;
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+}
+
+#brand {
+    padding-left: 0.52em;
+    font-size: 3em;
+    font-family: KCC-eunyoung;
+    padding-top: 0.15em;
+}
+
+#page {
+    background-color: red;
+    color: white;
+}
+
+div.main > img.main_img {
+    margin-top: 0.5em;
+    width: 100%;
+    min-width: 1200px;
+    height: auto;
+}
+
+div.address {
+    display: inline;
+    width: 100%;
+    min-width: 1200px;
+}
+#map_canvas {
+    position: absolute;
+    float: left;
+    width: 30%;
+    height: 40%;
+    margin: 3% 15% auto 15%;
+}
+div.address > div.info_address {
+    float: right;
+    font-family: S-CoreDream-4Regular;
+    margin: 7% 15% auto 0;
+}
+#first {
+    margin-bottom: 4%;
+}
+div.info_address > div.info_path {
+    border-left: red solid 3px;
+    padding-left: 4%;
+}
+#second {
+    margin-bottom: 2%;
+}
+input[type=text] {
+    padding:5px;
+    border:1px solid red;
+    border-radius: 5px;
+}
+input[type=submit] {
+    padding:5px 15px;
+    background:red;
+    color: white;
+    border:0 none;
+    cursor:pointer;
+    border-radius: 5px;
+}
