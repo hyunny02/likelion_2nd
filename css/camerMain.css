@@ -10,6 +10,11 @@ div.bar{
     font-size:1em;
 }
 
+a:link { color: black; text-decoration: none;}
+a:visited { color: black; text-decoration: none;}
+a:hover { color: black; text-decoration: none;}
+a:active{ color: black; text-decoration: none; }
+
 #brand{
     font-size: 3em;
     font-family: KCC-eunyoung;
@@ -19,7 +24,6 @@ div.bar{
     overflow: hidden;
     position: relative;
     min-width:1000px;
-    border: 1px solid red;
 }
 
 .main > img{

@@ -9,8 +9,12 @@
     display: inline-block;
     margin-right:80px;
     font-size: 1em;
-}
 
+}
+a:link { color: black; text-decoration: none;}
+a:visited { color: black; text-decoration: none;}
+a:hover { color: black; text-decoration: none;}
+a:active{ color: black; text-decoration: none; }
 #brand{
     font-size: 3em;
     font-family: KCC-eunyoung;
@@ -25,36 +29,35 @@
 
 .back{
     min-width:1200px;
-    border: 1px solid red;
     padding-top: 100px;
 }
-.camera{
-    width:50%;
-    height:auto;
-    float:left;
-    border: 1px solid red;
+.camera {
+    width: 50%;
+    height: auto;
+    float: left;
 }
 .lens{
     width:50%;
     height:auto;
     float:right;
-    border: 1px solid red;
 }
 .camera > img, .lens > img {
     border-bottom: 1px solid black;
     width: 200px;
 }
-.lens, .camera{
-    padding-left:200px;
-
+.camera {
+    padding-left: 250px;
 }
+.lens{
+    padding-left: 200px;
+    padding-right:100px;
+}
+
 .back > .lens > p{
-    border: 1px solid red;
     width:400px;
 
 }
 .back > .camera > p{
-    border: 1px solid red;
     width:400px;
 
 }
