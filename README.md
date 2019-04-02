@@ -26,6 +26,8 @@ css a태그 관련 코드를 사용 but hover시에 파란색밑줄은 없어지
 -> 세세하게 div를 나눴다.
 -구글 맵을 사용하고자 함.
 ->자바 스크립트를 이용해야 하는데, 모르는 영역이기 때문에 일단 코드를 긁어왔다.
+-하루패드에 이미지를 올리고자 함.
+-> []과 ()안에 모두 확장자를 입력했다.
 
 
 #간단한 소감
@@ -39,11 +41,11 @@ css a태그 관련 코드를 사용 but hover시에 파란색밑줄은 없어지
 
 ### 완성본 스크린샷 올리기
 ### 1. page1_main
-![](.\image\screen_1)
+![screen_1.png](.\image\screen_1.png)
 ### 2. page2_introduce
-![](.\image\screen_2)
+![screen_2.png](.\image\screen_2.png)
 ### 3. page3_product
-![](image\screen_3_1)
-![](.\image\screen_3_2)
+![screen_3_1.png](.\image\screen_3_1.png)
+![screen_3_2.png](.\image\screen_3_2.png)
 ### 4.page4_contact
-![](.\imgae\screen_4)
+![screen_4.png](.\image\screen_4.png)
